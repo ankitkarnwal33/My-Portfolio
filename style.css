@@ -21,7 +21,7 @@
   --shadow-1: 0.5rem 0.5rem 1rem rgba(112, 144, 176, 0.2);
 }
 
-/* Dark mode variables */
+/* Dark mode variables
 [data-theme="dark"] {
   --color-background: #3d3d3f;
   --color-white: #fff;
@@ -37,13 +37,12 @@
   --shadow-1: 0.5rem 0.5rem 1rem rgba(112, 144, 176, 0.2);
   --image-greyscale: 0%;
   --opacity: 1;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #3d3d3f;
+    /* --color-background: #3d3d3f;
     --color-white: #3d3d3f;
-    /* --color-brand: #141414bd; */
     --color-brand: #fdc435;
     --color-primary: #a8a8a8;
     --color-secondary: #c7afe6;
@@ -55,7 +54,7 @@
     --shadow-2: 0 0rem 1rem rgba(24, 24, 24, 0.27);
     --shadow-1: 0.5rem 0.5rem 1rem rgba(24, 24, 24, 0.27);
     --image-greyscale: 0%;
-    --opacity: 0.9;
+    --opacity: 0.9; */
   }
   body::-webkit-scrollbar {
     width: 0.6rem; /* Width of the scrollbar */
