@@ -60,7 +60,6 @@ header.addEventListener("click", (e) => {
 
 const handleStickyNav = function (entries, observe) {
   const [entry] = entries;
-  console.log(entry);
   if (entry.isIntersecting) {
     // Remove the fixed ca
   }
