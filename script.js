@@ -58,13 +58,6 @@ header.addEventListener("click", (e) => {
   }
 });
 
-const handleStickyNav = function (entries, observe) {
-  const [entry] = entries;
-  if (entry.isIntersecting) {
-    // Remove the fixed ca
-  }
-};
-
 const stickyObserver = new IntersectionObserver(handleStickyNav, {
   root: null,
   threshold: 0,
